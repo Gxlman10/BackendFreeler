@@ -25,7 +25,7 @@ async function bootstrap() {
     corsOrigins?: string[];
   }>('app');
 
-  const fallbackOrigins = ['http://localhost:5173', 'http://localhost:4173'];
+  const fallbackOrigins = ['https://frontend-freeler.vercel.app'];
   const configuredOrigins = appConfig?.corsOrigins ?? [];
   const allowedOrigins = configuredOrigins.length ? configuredOrigins : fallbackOrigins;
   const allowAll = allowedOrigins.includes('*');
