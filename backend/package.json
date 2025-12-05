@@ -34,7 +34,7 @@
     "@nestjs/typeorm": "^11.0.0",
     "@nestjs/cli": "^11.0.14",
     "bcrypt": "^6.0.0",
-    "class-transformer": "^0.5.1n ",
+    "class-transformer": "^0.5.1n",
     "class-validator": "^0.14.2",
     "exceljs": "^4.4.0",
     "fast-csv": "^4.3.6",
